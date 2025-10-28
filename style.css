@@ -1,7 +1,7 @@
 /* === ESTILOS GENERALES === */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family:"DM Serif Text", serif;
   background: linear-gradient(to bottom, #5852A7, #2b1c70);
   color: white;
   min-height: 100vh;
@@ -233,4 +233,16 @@ nav a.active {
   }
 }
 
+ .texto-columna {
+  max-width: 600px;     /* ancho limitado */
+  margin: 50px 0 0 100px; /* margen izquierdo para separarlo del borde */
+  text-align: justify;  /* texto justificado */
+  line-height: 1.6;
+  font-size: 1rem;
+  color: white;
+}
 
+.parrafo{
+  font-family: "Playfair Display";
+  font-size: larger;
+}
